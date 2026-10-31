@@ -1,0 +1,9 @@
+body{background:#f4efe6;color:#1d1d1b;font:17px/1.55 Georgia,serif}
+.hero{padding:clamp(40px,9vw,110px) 6vw 50px;max-width:980px}.k{font:700 .8rem system-ui;letter-spacing:.14em;text-transform:uppercase;color:#c4401c;margin:0}
+h1{font:900 clamp(2.4rem,8vw,5.6rem)/.98 Georgia,serif;margin:.3em 0}h1 em{color:#e4572e}
+.cta,.s{display:inline-block;background:#1d1d1b;color:#f4efe6;padding:14px 22px;border:0;font:700 1rem system-ui;text-decoration:none;cursor:pointer;transition:transform .2s,background .2s}.cta:hover,.s:hover{background:#c4401c;transform:translateY(-2px)}
+main{max-width:980px;padding:0 6vw}section{padding:40px 0;border-top:2px solid #1d1d1b}h2{font:800 1.8rem Georgia,serif;margin:0 0 18px}
+.pick{display:flex;flex-wrap:wrap;gap:10px}.pick button{padding:12px 18px;border:2px solid #1d1d1b;background:none;font:700 1rem system-ui;cursor:pointer;color:inherit}.pick [aria-checked=true]{background:#c4401c;border-color:#c4401c;color:#fff}
+#steps{padding-left:22px}#steps li{margin:10px 0;animation:in .4s both}@keyframes in{from{opacity:0;transform:translateX(-10px)}}
+form{display:grid;gap:14px;max-width:560px}label{font:700 .85rem system-ui;display:grid;gap:6px}input,select,textarea{font:inherit;padding:11px;border:2px solid #1d1d1b;background:#fff;color:#1d1d1b}.e{color:#b3261e;font:.85rem system-ui;margin:0}
+#ok{background:#1d1d1b;color:#f4efe6;padding:20px;max-width:560px}footer{padding:30px 6vw;font:.85rem system-ui;color:#555}
