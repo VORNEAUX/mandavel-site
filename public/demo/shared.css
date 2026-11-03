@@ -1,4 +1,0 @@
-*{box-sizing:border-box}body{margin:0}img,svg{max-width:100%}
-.bar{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 16px;background:#111;color:#eee;font:13px/1.4 system-ui,sans-serif}.bar span{flex:1 1 280px}.bar a{color:#fff;text-underline-offset:3px}
-:focus-visible{outline:3px solid #2f6fe4;outline-offset:2px}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
