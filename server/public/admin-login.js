@@ -1,2 +1,0 @@
-(()=>{const f=document.getElementById('f'),e=document.getElementById('e');f.addEventListener('submit',async ev=>{ev.preventDefault();e.hidden=true;const b=f.querySelector('button');b.disabled=true;
-try{const r=await fetch('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json','X-MV':'1'},body:JSON.stringify({token:document.getElementById('t').value})});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Errore');location.reload()}catch(x){e.textContent=x.message;e.hidden=false;b.disabled=false}})})();
