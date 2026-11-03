@@ -1,0 +1,13 @@
+MANDAVEL — cosa c'è in questa cartella
+
+1) index.html  →  IL SITO. Fai doppio clic: si apre nel browser e puoi vedere tutta l'estetica.
+   (Serve connessione solo per i font. Voto, proposte e richieste qui sono spenti: richiedono il server.)
+   Rinominato o lasciato così, funziona anche su GitHub Pages come sola vetrina.
+
+2) server/  →  LA VERSIONE COMPLETA con voto, proposte, richieste e pannello admin.
+   Serve Node 22.13 o superiore. Dentro la cartella server:
+       ADMIN_TOKEN="una-chiave-lunga-e-casuale" node server.js
+   poi apri http://localhost:3000  (admin: http://localhost:3000/admin)
+   Istruzioni e variabili di configurazione: server/README.md
+
+3) .gitignore  →  evita di caricare su GitHub il database e la chiave segreta.
